@@ -1,0 +1,38 @@
+type Query {
+    productDetails: ProductProperties
+}
+
+type ProductProperties {
+    name: String
+    author: String
+    icon: String
+    category: String
+    price: String
+    priceCurrency: String
+    inAppBilling: Boolean
+    rating: Rating
+    topDeveloper: Boolean
+    screenshots: [String]
+    description: String
+    shortDescription: String
+    changelog: String
+    datePublished: String
+    datePublishedIso: String
+    fileSize: String
+    numDownloads: String
+    versionName: String
+    operatingSystems: String
+    storeCategory: String
+    contentRating: String
+}
+
+type Rating {
+    count: Int
+    display: String
+    value: Int
+    five: Int
+    four: Int
+    three: Int
+    two: Int
+    one: Int
+}

@@ -1,0 +1,15 @@
+{
+  "name": "graphql-wrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shivamkrpandey",
+  "license": "ISC",
+  "dependencies": {
+    "graphql-yoga": "1.18.3",
+    "request": "2.88.0"
+  }
+}
