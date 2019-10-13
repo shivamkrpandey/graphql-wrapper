@@ -1,4 +1,4 @@
-** GraphQL - Wrapper **
+**GraphQL - Wrapper**
 
 - Only get what you request, not less nor more.
 
